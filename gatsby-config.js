@@ -6,7 +6,20 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: 'Personal Website!',
+    author: 'Sam Reichle'
+  },
   plugins: [
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    {
+      // Pulls raw content from files
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`
+      }
+    },
+    'gatsby-transformer-remark'
   ],
 }
