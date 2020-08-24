@@ -1,6 +1,6 @@
 const path = require('path');
 
-// Creates slug that defines absolute path to md as node property
+// Creates slug that defines absolute path to md as node field property
 module.exports.onCreateNode = ({ node, actions }) => {
     const { createNodeField } = actions
 
@@ -18,7 +18,7 @@ module.exports.onCreateNode = ({ node, actions }) => {
 module.exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions;
 // Get path to template
-    const blogTemplate = path.resolve('./src/templates/blog.js');
+    const projectsTemplate = path.resolve('./src/templates/projects.js');
     const res = await graphql(`
         query {
             allMarkdownRemark {
@@ -35,8 +35,8 @@ module.exports.createPages = async ({ graphql, actions }) => {
 
     res.data.allMarkdownRemark.edges.forEach((edge) => {
         createPage({
-            component: blogTemplate,
-            path: `/blog/${edge.node.fields.slug}`,
+            component: projectsTemplate,
+            path: `/projects/${edge.node.fields.slug}`,
             context: {
                 slug: edge.node.fields.slug
             }
