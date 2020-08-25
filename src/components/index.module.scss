@@ -1,0 +1,30 @@
+.link {
+    border-bottom: 1px solid #d2d4db;
+    color: #333333;
+    font-size: 20px;
+    padding-bottom: 1px;
+    text-decoration: gray;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+  
+  @keyframes bounce {
+    0% {
+      left: 0;
+    }
+    20% {
+      left: 10px;
+    }
+    40% {
+      left: 0;
+    }
+    100% {
+      left: 0;
+    }
+  }
+
+.arrow {
+    position: relative;
+    animation: bounce 3s infinite;
+    animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  }
