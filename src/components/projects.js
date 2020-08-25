@@ -39,7 +39,9 @@ const Projects = () => {
                                         <div className={ProjectStyles.image} dangerouslySetInnerHTML={{ __html: edge.node.html }}></div>
                                         <div>
                                             <p className={ProjectStyles.description}>{edge.node.frontmatter.description}</p>
-                                            <div className={ProjectStyles.toolsLinks}>
+                                        </div>
+                                    </div>
+                                    <div className={ProjectStyles.toolsLinks}>
                                                 <div>
                                                     <ul className={ProjectStyles.toolsList}>{edge.node.frontmatter.tools.map((tool,index) => {
                                                         return(
@@ -68,8 +70,6 @@ const Projects = () => {
                                                     </a>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
                                 </li>
                         </div>
                     )

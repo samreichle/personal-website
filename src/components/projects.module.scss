@@ -6,7 +6,7 @@
 }
 
 .project:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .content {
@@ -19,6 +19,7 @@
 margin-top: 10px;
 margin-right: 12px;
 margin-left: 12px;
+max-width: 400px;
 }
 
 .nav-list {
@@ -35,33 +36,32 @@ margin-left: 12px;
 }
 
 .tools-list {
-    display: flex;
-    justify-content: space-between;
     list-style-type: none;
+    margin-right: 40px;
 }
 
 .tool {
-    font-size: 15px;
     text-decoration: none;
-    margin-left: 10px;
+    margin-right: 20px;
 }
 
 .image {
     max-width:600px;
+    max-height: 600px;
     margin: 0 120px;
 }
 
 .tools-links {
-    display: flex;
-    justify-content: space-between;
+    padding-top: 80px;
+    margin-right: 175px;
 }
 
 .links {
     display: flex;
     list-style-type: none;
-    margin-right: 25px;
+    padding-top: 20px;
 }
 
 .link {
-    margin-right: 15px;
+    margin-left: 25px;
 }
