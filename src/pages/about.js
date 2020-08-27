@@ -29,13 +29,27 @@ const AboutPage = () => {
                         My work experiences have taught me the importance of adaptability, communication, and planning. I value hard work and perseverance and believe these to be important components for success.
                     </p>
                     <p>
-                        When not coding, you may find me riding my bike, reading a new historical fiction novel, or catching whatever sports games are on with my friends. I believe setting aside some personal time away from work
-                        is important for personal health and productivity.
-                    </p>
-                    <p>
                         My long-term goal is to become a senior software engineer, but I am currently looking to join a web development team at an innovative company where I can make an immediate impact.
                         If you are looking for someone to fit this kind of role, please <Link className={AboutStyles.link} to="/contact">contact me</Link>.
                     </p>
+                    <center><h3>Tech Skills</h3></center>
+                    <div className={AboutStyles.skills}>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Sass</li>
+                        </ul>
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Gatsby</li>
+                        </ul>
+                        <ul>
+                            <li>Java</li>
+                            <li>SQL</li>
+                            <li>JQuery</li>
+                        </ul>
+                    </div>
                 </div>
                 <div>
                     <img className={AboutStyles.image} src={ProfilePic} alt="Profile Pic" />

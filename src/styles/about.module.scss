@@ -1,7 +1,7 @@
 .image {
     border-radius: 2px;
-    max-width: 400px;
-    max-height: 550px;
+    max-width: 500px;
+    max-height: 650px;
     margin-left: 150px;
     margin-right: 0px;
     @media (max-width: 600px) {
@@ -29,14 +29,19 @@
 
 .link {
     color: black;
-      font-weight: 700;
-      padding-bottom: 5px;
-      border-bottom: 2px solid transparent;
-      display: inline-block;
-      text-decoration: none;
-      transition: border-bottom 0.2s;
+    font-weight: 700;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+    text-decoration: none;
+    transition: border-bottom 0.2s;
     }
     
     .link:hover {
         border-bottom: 2px solid black;
       }
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
