@@ -1,0 +1,57 @@
+.link {
+    border-bottom: 1px solid #d2d4db;
+    color: #333333;
+    font-size: 22px;
+    padding-bottom: 10px;
+    text-decoration: gray;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+  
+  @keyframes bounce-side {
+    0% {
+      left: 0;
+    }
+    20% {
+      left: 10px;
+    }
+    40% {
+      left: 0;
+    }
+    100% {
+      left: 0;
+    }
+  }
+
+  .link-arrow {
+      position: relative;
+      animation: bounce-side 3s infinite;
+      animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+    }
+
+
+.scroll {
+  text-decoration: none;
+  color: black; 
+}
+
+  @keyframes bounce-up {
+    0% {
+      bottom: 0;
+    }
+    20% {
+      bottom: 10px;
+    }
+    40% {
+      bottom: 0;
+    }
+    100% {
+      bottom: 0;
+    }
+  }
+
+  .scroll-arrow {
+    position: relative;
+      animation: bounce-up 3s infinite;
+      animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  }

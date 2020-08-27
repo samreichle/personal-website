@@ -1,0 +1,13 @@
+.link {
+color: black;
+  font-weight: 700;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  text-decoration: none;
+  transition: border-bottom 0.2s;
+}
+
+.link:hover {
+    border-bottom: 2px solid transparent;
+  }

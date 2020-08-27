@@ -1,0 +1,62 @@
+.project {
+    background-color: rgba(17, 3, 3, 0.158);
+    border-radius: 5px;
+    transition: transform .2s;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.content {
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 70px;
+}
+
+.description {
+    font-size: 15px;
+}
+
+.tools {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 0;
+}
+
+.tool {
+    margin-right: 60px;
+}
+
+.tool-indecision {
+    margin-right: 205px;
+}
+
+.link {
+    margin-left: 15px;
+}
+
+.image {
+    max-width: 1500px;
+    width: 100%;
+    height: 100%;
+    margin-top: 25px;
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+
+.image-indecision {
+    max-width: 1160px;
+    width: 100%;
+    height: 95%;
+    margin-top: 25px;
+    margin-bottom: 0;
+    border-radius: 5px;
+}

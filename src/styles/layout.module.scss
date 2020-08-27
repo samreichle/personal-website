@@ -1,0 +1,17 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: rgba(54, 54, 54, 0.952);
+}
+
+.content {
+    flex-grow: 1;
+}
+
+
+

@@ -1,0 +1,24 @@
+.image {
+    max-width: 600px;
+    max-height: 650px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.flex {
+    display: flex;
+}
+
+.link {
+    color: black;
+      font-weight: 700;
+      padding-bottom: 5px;
+      border-bottom: 2px solid transparent;
+      display: inline-block;
+      text-decoration: none;
+      transition: border-bottom 0.2s;
+    }
+    
+    .link:hover {
+        border-bottom: 2px solid black;
+      }
