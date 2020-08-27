@@ -15,7 +15,7 @@ const AboutPage = () => {
                 <div>
                     <img className={AboutStyles.imageMobile} src={ProfilePic} alt="Profile Pic" />
                 </div>
-                <div>
+                <div className={AboutStyles.content}>
                     <p>
                         My name is Sam Reichle (rīk-lee), and I am a Full-Stack Web Developer striving to create high-quality, conducive websites and web applications. 
                         I am currently pursuing a Bachelor's degree in Management Information Systems at The University of Alabama. Roll Tide!
