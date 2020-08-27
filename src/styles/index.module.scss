@@ -1,3 +1,10 @@
+.title {
+
+  @media (max-width: 600px) {
+    font-size: 28px;
+  }
+}
+
 .link {
     border-bottom: 1px solid #d2d4db;
     color: #333333;

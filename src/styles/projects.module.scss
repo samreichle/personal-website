@@ -40,6 +40,9 @@
 
 .tool-indecision {
     margin-right: 205px;
+    @media (max-width: 600px) {
+        margin-right: 115px;
+    }
 }
 
 .link {
@@ -53,6 +56,9 @@
     margin-top: 25px;
     margin-bottom: 0;
     border-radius: 5px;
+    @media (max-width: 600px) {
+        display: none;
+    }
 }
 
 .image-indecision {
@@ -62,4 +68,7 @@
     margin-top: 27px;
     margin-bottom: 0;
     border-radius: 5px;
+    @media (max-width: 600px) {
+        display: none;
+    }
 }
