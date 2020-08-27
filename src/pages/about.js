@@ -17,7 +17,7 @@ const AboutPage = () => {
                 </div>
                 <div>
                     <p>
-                        My name is Sam Reichle (rīk-lee), and I am a Full Stack Web Developer striving to create high-quality, conducive websites and web applications. 
+                        My name is Sam Reichle (rīk-lee), and I am a Full-Stack Web Developer striving to create high-quality, conducive websites and web applications. 
                         I am currently pursuing a Bachelor's degree in Management Information Systems at The University of Alabama. Roll Tide!
                     </p>
                     <p> 
@@ -27,7 +27,10 @@ const AboutPage = () => {
                     </p>
                     <p>
                         My work experiences have taught me the importance of adaptability, communication, and planning. I value hard work and perseverance and believe these to be important components for success.
-
+                    </p>
+                    <p>
+                        When not coding, you may find me riding my bike, reading a new historical fiction novel, or catching whatever sports games are on with my friends. I believe setting aside some personal time away from work
+                        is important for personal health and productivity.
                     </p>
                     <p>
                         My long-term goal is to become a senior software engineer, but I am currently looking to join a web development team at an innovative company where I can make an immediate impact.
