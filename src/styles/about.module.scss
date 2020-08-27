@@ -3,10 +3,27 @@
     max-height: 650px;
     margin-left: 200px;
     margin-right: 100px;
+    @media (max-width: 600px) {
+      display: none
+    }
+}
+
+.image-mobile {
+  display: none;
+  @media (max-width: 600px) {
+    display: inline;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
 
 .flex {
     display: flex;
+    @media (max-width: 600px) {
+      display: inline;
+    }
 }
 
 .link {

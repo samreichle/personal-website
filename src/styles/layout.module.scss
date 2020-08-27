@@ -7,6 +7,10 @@
     flex-direction: column;
     min-height: 100vh;
     color: rgba(54, 54, 54, 0.952);
+
+    @media (max-width: 600px) {
+        
+    }
 }
 
 .content {
