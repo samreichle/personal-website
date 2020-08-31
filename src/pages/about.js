@@ -10,7 +10,6 @@ import ProfilePic from '../images/profile-pic.png';
 const AboutPage = () => {
     return (
         <Layout>
-            <h1>Hi there.</h1>
             <div className={AboutStyles.flex}>
                 <div>
                     <img className={AboutStyles.imageMobile} src={ProfilePic} alt="Profile Pic" />
