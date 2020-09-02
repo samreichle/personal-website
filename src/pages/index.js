@@ -8,7 +8,7 @@ import IndexStyles from '../styles/index.module.scss';
 const IndexPage = () => {
     return (
         <Layout>
-            <h1 className = {IndexStyles.title}>Sam Reichle &mdash; Full-Stack Web Developer and MIS Student at The University of Alabama.</h1>
+            <h1 className = {IndexStyles.title}>Sam Reichle &mdash; Web Developer and MIS Student at The University of Alabama.</h1>
             <div>
                 <Link className={IndexStyles.link} to="/about">
                     Learn more about me <span className={IndexStyles.linkArrow}>&rarr;</span>
