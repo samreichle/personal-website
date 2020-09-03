@@ -16,7 +16,7 @@ const AboutPage = () => {
                 </div>
                 <div className={AboutStyles.content}>
                     <p>
-                        My name is Sam Reichle (rīk-lee), and I am a Web Developer striving to create high-quality, conducive websites and web applications that will enrich the lives of their users. 
+                        I'm Sam Reichle (rīk-lee), a Web Developer striving to create high-quality, conducive websites and web applications that will enrich the lives of their users. 
                         I am currently pursuing a Bachelor's degree in Management Information Systems at The University of Alabama. Roll Tide!
                     </p>
                     <p> 
