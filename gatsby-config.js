@@ -7,35 +7,20 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Personal Website!',
+    title: 'Sam Reichle',
     author: 'Sam Reichle'
   },
   plugins: [
     'gatsby-plugin-sass',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
       // Pulls raw content from files
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'src',
-        path: `${__dirname}/src/`
+        name: 'images',
+        path: `${__dirname}/src/images`
       }
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          'gatsby-remark-relative-images',
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 800,
-              linkImagesToOriginal: false
-            }
-          }
-        ]
-      }
-    }
   ],
 }
