@@ -18,7 +18,7 @@ const AboutPage = () => {
                     <div className={AboutStyles.content}>
                         <center><h2>About Me</h2></center>
                         <p>
-                            I'm Sam Reichle (rīk-lee), a Web Developer striving to create high-quality, conducive websites and web applications that will enrich the lives of their users. 
+                            I'm Sam Reichle (rīk-lee), a software developer and student striving to create high-quality, conducive software that will enrich the lives of its users. 
                             I am currently pursuing a Bachelor's degree in Management Information Systems at The University of Alabama. Roll Tide!
                         </p>
                         <p> 
@@ -28,7 +28,7 @@ const AboutPage = () => {
                             Most of all, I have acquired valuable experience working with teams of other professionals to create and implement strategies that result in meaningful projects.
                         </p>
                         <p>
-                            My long-term goal is to become a senior software engineer, but I am currently looking to join a web development team at an innovative company where I can make an immediate impact.
+                            I am currently looking to fill an entry level Technical Consulting or Web Development role at an innovative company where I can make an immediate impact.
                             If you are looking for someone to fill this kind of role, please <Link className={AboutStyles.link} to="/contact">contact me</Link>.
                         </p>
                     </div>
@@ -37,23 +37,23 @@ const AboutPage = () => {
                         <div className={AboutStyles.skills}>
                             <ul>
                                 <li>HTML5</li>
-                                <li>CSS</li>
-                                <li>SASS</li>
-                            </ul>
-                            <ul>
+                                <li>CSS3</li>
                                 <li>JavaScript</li>
-                                <li>React</li>
-                                <li>Redux</li>
-                            </ul>
-                            <ul>
-                                <li>Gatsby</li>
-                                <li>GraphQL</li>
-                                <li>CMS</li>
                             </ul>
                             <ul>
                                 <li>Java</li>
                                 <li>SQL</li>
-                                <li>JQuery</li>
+                                <li>C#</li>
+                            </ul>
+                            <ul>
+                                <li>React</li>
+                                <li>Gatsby</li>
+                                <li>GraphQL</li>
+                            </ul>
+                            <ul>
+                                <li>ASP.NET Core MVC</li>
+                                <li>jQuery</li>
+                                <li>Bootstrap</li>
                             </ul>
                         </div>
                     </div>
