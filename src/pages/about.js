@@ -18,7 +18,7 @@ const AboutPage = () => {
                     <div className={AboutStyles.content}>
                         <center><h2>About Me</h2></center>
                         <p>
-                            I'm Sam Reichle (rīk-lee), a software developer and student striving to create high-quality, conducive software that will enrich the lives of its users. 
+                            I'm Sam Reichle (rīk-lee), a software developer and student from Birmingham, Alabama striving to create high-quality, conducive software that will enrich the lives of its users. 
                             I am currently pursuing a Bachelor's degree in Management Information Systems at The University of Alabama. Roll Tide!
                         </p>
                         <p> 
